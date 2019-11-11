@@ -1,0 +1,1 @@
+# wdio-allure-bug
