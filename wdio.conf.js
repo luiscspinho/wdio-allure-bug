@@ -67,6 +67,11 @@ exports.config = {
     if (test.error !== undefined) {
       await browser.takeScreenshot();
     }
+  },
+  afterHook: async test => {
+    if (test.error !== undefined) {
+      await browser.takeScreenshot();
+    }
   }
 
   // afterSuite: function (suite) {
